@@ -33,7 +33,7 @@ long long solve(vector<int> num, vector<int> denum){
     return ans;
 }
 
-int solutionToUva(){
+int main(){
     int n, r;
     while(cin >> n >> r){
        if(n == 0 && r == 0)break;
